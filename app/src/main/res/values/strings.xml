@@ -1,0 +1,57 @@
+<resources>
+    <!-- 상군 -->
+    <string name="app_name">PSG</string>
+    <string name="loading_1">우리 지역은?</string>
+    <string name="loading_2">포세권</string>
+    <string name="loading_3">Team 지강선</string>
+
+
+    <!-- 한강 -->
+    <string name="kakao_app_key">42a535eb5f39c2cb3af84899f11a6898</string>
+    <string name="emaillogin">이메일 로그인</string>
+    <string name="email">이메일</string>
+    <string name="password">비밀번호</string>
+    <string name="Nologin"><u>로그인없이 이용하기</u></string>
+    <string name="email_login">이메일 로그인</string>
+    <string name="sign_up">회원 가입하기</string>
+
+    <string name="find_email"><u> 이메일 찾기 </u></string>
+    <string name="find_pw"><u> 비밀번호 찾기 </u></string>
+
+    <!-- 선래 -->
+    <string name="sign_up_main_info_text1">로그인하고</string>
+    <string name="sign_up_main_info_text2">함께 포장마차 즐기기!</string>
+    <string name="sign_up_main_sign_up_button_text">로그인 하기</string>
+    <string name="sign_up_main_sign_in_button_text">회원가입하기</string>
+    <string name="sign_up_main_sign_in_guest_text"><u>로그인없이 이용하기</u></string>
+    <string name="mypage_profile_edit_text"><u>프로필 편집하기</u></string>
+
+
+    <string name="menu_main_title">개 맛있는 호떡집</string>
+    <string name="menu_main_title1">덜 맛있는 떡볶이집</string>
+
+    <string name="menu_select_title">개 맛있는 호떡집</string>
+    <string name="menu_select_info">월요일 마다 휴무</string>
+    <string name="menu_select_address">상세주소는 이곳에 적습니다</string>
+    <string name="menu_select_main">메뉴 이름\n가격\n운영시간\n전화번호</string>
+
+    <string name="menu_select_title1">덜 맛있는 떡볶이집</string>
+    <string name="menu_select_info1">일요일 마다 휴무</string>
+    <string name="menu_select_address1">상세주소는 이곳에 적습니다</string>
+    <string name="menu_select_main1">메뉴 이름\n가격\n운영시간\n전화번호</string>
+
+
+    <!--  지윤  -->
+    <string name="sign_in_toolbar_title">회원 가입하기</string>
+    <string name="my_page_toolbar_title">마이 페이지</string>
+    <string name="edit_profile_title">프로필 수정</string>
+    <string name="customer_inquiry_title">문의 하기</string>
+
+    <string name="user_name">"<b>"닉네임"</b>"</string>
+    <string name="edit_profile">프로필 편집하기</string>
+
+    <string name="my_review">내가 쓴 리뷰</string>
+    <string name="add_shop">가게 추가 하기</string>
+    <string name="my_added_shop">내가 추가한 가게</string>
+    <string name="customer_inquiry">문의 하기</string>
+</resources>

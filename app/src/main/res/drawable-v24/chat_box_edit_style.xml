@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--        <shape-->
+    <!--            android:padding="10dp"-->
+    <!--            android:shape="rectangle">-->
+    <!--            <solid android:color="@color/white" />-->
+    <!--            <corners android:radius="100dp" />-->
+    <!--        </shape>-->
+
+    <!--2.5dp 간격으로 다른 색의 그림자를 여러겹 생성하여 구현-->
+    <!-- Drop Shadow Stack -->
+<!--    <item>-->
+<!--        <shape>-->
+<!--            <padding-->
+<!--                android:bottom="2.5dp"-->
+
+<!--                />-->
+<!--            <solid android:color="#00CCCCCC" />-->
+<!--            <corners android:radius="30dp" />-->
+<!--        </shape>-->
+<!--    </item>-->
+
+<!--    <item>-->
+<!--        <shape>-->
+<!--            <padding-->
+<!--                android:bottom="2.5dp"-->
+<!--                />-->
+<!--            <solid android:color="#11CCCCCC" />-->
+<!--            <corners android:radius="30dp" />-->
+<!--        </shape>-->
+<!--    </item>-->
+<!--    <item>-->
+<!--        <shape>-->
+<!--            <padding-->
+<!--                android:bottom="2.5dp"-->
+<!--                />-->
+<!--            <solid android:color="#22CCCCCC" />-->
+<!--            <corners android:radius="30dp" />-->
+<!--        </shape>-->
+<!--    </item>-->
+<!--    <item>-->
+<!--        <shape>-->
+<!--            <padding-->
+<!--                android:bottom="2.5dp"-->
+<!--                />-->
+<!--            <solid android:color="#33CCCCCC" />-->
+<!--            <corners android:radius="30dp" />-->
+<!--        </shape>-->
+<!--    </item>-->
+<!--    <item>-->
+<!--        <shape>-->
+<!--            <padding-->
+<!--                android:bottom="2.5dp"-->
+<!--                />-->
+<!--            <solid android:color="#44CCCCCC" />-->
+<!--            <corners android:radius="30dp" />-->
+<!--        </shape>-->
+<!--    </item>-->
+<!--    <item>-->
+<!--        <shape>-->
+<!--            <padding-->
+<!--                android:bottom="2.5dp"-->
+<!--                />-->
+<!--            <solid android:color="#55CCCCCC" />-->
+<!--            <corners android:radius="30dp" />-->
+<!--        </shape>-->
+<!--    </item>-->
+    <!--    <item>-->
+    <!--        <shape>-->
+    <!--            <padding-->
+    <!--                android:bottom="2.5dp"-->
+    <!-- />-->
+    <!--            <solid android:color="#66CCCCCC" />-->
+    <!--            <corners android:radius="30dp" />-->
+    <!--        </shape>-->
+    <!--    </item>-->
+    <!--    <item>-->
+    <!--        <shape>-->
+    <!--            <padding-->
+    <!--                android:bottom="2.5dp"-->
+    <!-- />-->
+    <!--            <solid android:color="#77CCCCCC" />-->
+    <!--            <corners android:radius="30dp" />-->
+    <!--        </shape>-->
+    <!--    </item>-->
+    <!--    <item>-->
+    <!--        <shape>-->
+    <!--            <padding-->
+    <!--                android:bottom="2.5dp"-->
+    <!-- />-->
+    <!--            <solid android:color="#88CCCCCC" />-->
+    <!--            <corners android:radius="30dp" />-->
+    <!--        </shape>-->
+    <!--    </item>-->
+    <!--    <item>-->
+    <!--        <shape>-->
+    <!--            <padding-->
+    <!--                android:bottom="2.5dp"-->
+    <!-- />-->
+    <!--            <solid android:color="#99CCCCCC" />-->
+    <!--            <corners android:radius="30dp" />-->
+    <!--        </shape>-->
+    <!--    </item>-->
+
+    <item>
+        <shape>
+            <padding android:top="7dp"/>
+            <padding android:bottom="7dp"/>
+            <solid android:color="@android:color/darker_gray" />
+        </shape>
+    </item>
+
+    <!-- Background -->
+    <item>
+        <shape>
+
+            <solid android:color="@android:color/white" />
+            <corners android:radius="30dp" />
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- 툴바 추가 -->
+    <!-- 툴바 레이아웃 불러오기 -->
+    <include
+        layout="@layout/edit_profile_toolbar"
+        android:id="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"/>
+
+
+    <!-- 프로필 이미지 -->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/et_profileimage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="65dp"
+        android:padding="10dp"
+        android:src="@drawable/add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingClass,MissingConstraints"
+        />
+
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/edittext_sign_in_rectangle"
+        android:hint="이메일"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/et_profileimage"
+        app:layout_constraintStart_toStartOf="@+id/et_profileimage"
+        app:layout_constraintTop_toTopOf="@+id/et_profileimage" />
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:hint="휴대전화"
+        android:padding="10dp"
+        android:inputType="textVisiblePassword"
+        app:layout_constraintEnd_toEndOf="@+id/et_id"
+        app:layout_constraintStart_toStartOf="@+id/et_id"
+        app:layout_constraintTop_toBottomOf="@+id/et_id"
+        android:background="@drawable/edittext_sign_in_rectangle" />
+
+    <EditText
+        android:id="@+id/et_passck"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:hint="닉네임"
+        android:padding="10dp"
+        android:inputType="textVisiblePassword"
+        app:layout_constraintEnd_toEndOf="@+id/et_pass"
+        app:layout_constraintStart_toStartOf="@+id/et_pass"
+        app:layout_constraintTop_toBottomOf="@+id/et_pass"
+        android:background="@drawable/edittext_sign_in_rectangle"/>
+
+    <!--<EditText
+        android:id="@+id/et_name"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:hint="이름"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_passck"
+        app:layout_constraintStart_toStartOf="@+id/et_passck"
+        app:layout_constraintTop_toBottomOf="@+id/et_passck"
+        android:background="@drawable/edittext_sign_in_rectangle"/>-->
+
+    <!--<EditText
+        android:id="@+id/et_age"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:hint="나이"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_name"
+        app:layout_constraintStart_toStartOf="@+id/et_name"
+        app:layout_constraintTop_toBottomOf="@+id/et_name"
+        android:background="@drawable/edittext_sign_in_rectangle"/>-->
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="비밀번호"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_passck"
+        app:layout_constraintStart_toStartOf="@+id/et_passck"
+        app:layout_constraintTop_toBottomOf="@+id/et_passck"
+        android:background="@drawable/edittext_sign_in_rectangle"/>
+
+    <EditText
+        android:id="@+id/et_invite"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="비밀번호 확인"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_name"
+        app:layout_constraintStart_toStartOf="@+id/et_name"
+        app:layout_constraintTop_toBottomOf="@+id/et_name"
+        android:background="@drawable/edittext_sign_in_rectangle"/>
+
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/sign_in_button"
+        app:layout_constraintEnd_toEndOf="@+id/et_invite"
+        app:layout_constraintStart_toStartOf="@+id/et_invite"
+        app:layout_constraintTop_toBottomOf="@+id/et_invite"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

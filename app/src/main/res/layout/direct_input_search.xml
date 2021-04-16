@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/direct_input_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="역을 검색해보세요!"/>
+
+        <ListView
+            android:id="@+id/direct_input_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            android:divider="#999999"
+            android:dividerHeight="1dp"></ListView>
+
+        <TextView
+            android:id="@+id/direct_input_add_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="찾는 가게가 없나요?"
+            android:layout_marginBottom="176dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/direct_input_add_icon"
+                android:layout_width="16dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal|center"
+                android:src="@drawable/ic_vector"
+                />
+
+        <TextView
+            android:id="@+id/direct_input_add_button"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|center"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:text="가게 추가하고\n 기프티콘 받기!" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

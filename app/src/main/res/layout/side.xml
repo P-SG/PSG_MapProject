@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/side_profile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="clickMenu"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="30dp">
+        <!-- 아이콘 -->
+        <ImageView
+            android:id="@+id/side_profile"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_user"
+            />
+        <!--지워쓰 -->
+        <!-- 프로필 이름 -->
+        <TextView
+            android:id="@+id/side_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그인을 해주세요"
+            android:textSize="16dp"
+            android:layout_marginHorizontal="18dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인 없이도 둘러볼 수 있어요!"
+        android:textSize="12dp"
+        android:layout_marginHorizontal="38dp"
+        android:layout_marginTop="16dp"/>
+    <!-- 가로 선 -->
+    <View
+        android:id="@+id/side_hr"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"/>
+    <!-- 메뉴 아이템 -->
+    <!-- 같이 먹을 사람 찾기 -->
+    <LinearLayout
+        android:id="@+id/side_together"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="clickMenu"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:id="@+id/menu_together"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_users"
+            />
+        <TextView
+            android:id="@+id/menu_together_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="함께 먹을 사람 찾기"
+            android:layout_marginLeft="18dp"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/side_menu_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="호떡"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="18dp"
+        android:paddingLeft="21dp"
+        android:onClick="onCheckBoxClicked"
+        android:checked="true"/>
+    <CheckBox
+        android:id="@+id/side_menu_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="붕어빵 / 잉어빵"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="18dp"
+        android:paddingLeft="21dp"
+        android:onClick="onCheckBoxClicked"
+        android:checked="true"/>
+    <CheckBox
+        android:id="@+id/side_menu_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="분식"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="18dp"
+        android:paddingLeft="21dp"
+        android:onClick="onCheckBoxClicked"
+        android:checked="true"/>
+    <CheckBox
+        android:id="@+id/side_menu_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="문어빵"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="18dp"
+        android:paddingLeft="21dp"
+        android:onClick="onCheckBoxClicked"
+        android:checked="true"/>
+    <CheckBox
+        android:id="@+id/side_menu_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="빵 종류"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="18dp"
+        android:paddingLeft="21dp"
+        android:onClick="onCheckBoxClicked"
+        android:checked="true"/>
+    <CheckBox
+        android:id="@+id/side_menu_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전 등 포차 메뉴"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="18dp"
+        android:paddingLeft="18dp"
+        android:onClick="onCheckBoxClicked"
+        android:checked="true"/>
+    <CheckBox
+        android:id="@+id/side_menu_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기타"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="18dp"
+        android:paddingLeft="21dp"
+        android:onClick="onCheckBoxClicked"
+        android:checked="true"
+        />
+</LinearLayout>

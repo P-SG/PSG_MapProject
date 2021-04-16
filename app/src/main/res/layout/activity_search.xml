@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <TextView
+        android:id="@+id/subway_search"
+        android:layout_width="144dp"
+        android:layout_height="43dp"
+        android:text="역주변"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <TextView
+        android:id="@+id/direct_input_text"
+        android:layout_width="144dp"
+        android:layout_height="43dp"
+        android:text="직접입력"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/subway_line"
+            android:orientation="horizontal">
+
+            <!--<ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_1"
+                android:id="@+id/subway_line_1"
+                android:onClick="Click"/>
+
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_2"
+                android:id="@+id/subway_line_2"
+                android:onClick="Click"/>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_3"
+                android:id="@+id/subway_line_3"
+                android:onClick="Click"/>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_4"
+                android:id="@+id/subway_line_4"
+                android:onClick="Click"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_5"
+                android:id="@+id/subway_line_5"
+                android:onClick="Click"
+                />
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_6"
+                android:id="@+id/subway_line_6"
+                android:onClick="Click"
+                />
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_7"
+                android:id="@+id/subway_line_7"
+                android:onClick="Click"
+                />
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_8"
+                android:id="@+id/subway_line_8"
+                android:onClick="Click"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_9"
+                android:id="@+id/subway_line_9"
+                android:onClick="Click"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_bundang"
+                android:id="@+id/subway_line_bundang"
+                android:onClick="Click"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_gimpodosi"
+                android:id="@+id/subway_line_gimpodosi"
+                android:onClick="Click"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_gonghang"
+                android:id="@+id/subway_line_gonghang"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_gyeongchun"
+                android:id="@+id/subway_line_gyeongchun"
+                android:onClick="Click"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_gyeonggang"
+                android:id="@+id/subway_line_gyeonggang"
+                android:onClick="Click"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_gyeongui"
+                android:id="@+id/subway_line_gyeongui"
+                android:onClick="Click"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_seohae"
+                android:id="@+id/subway_line_seohae"
+                android:onClick="Click"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_sinbundang"
+                android:id="@+id/subway_line_sinbundang"
+                android:onClick="Click"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_uijeongbugyeong"
+                android:id="@+id/subway_line_uijeongbugyeong"
+                android:onClick="Click"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_uisinseolgyeong"
+                android:id="@+id/subway_line_uisinseolgyeong"
+                android:onClick="Click"/>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/subway_line_yongingyeong"
+                android:id="@+id/subway_line_yongingyeong"
+                android:onClick="Click"/>
+    -->
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:layout_width="411dp"
+        android:layout_height="526dp"
+        android:id="@+id/subway_fragment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

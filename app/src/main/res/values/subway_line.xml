@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="subway_line">
+        <item>@drawable/subway_line_1</item>
+        <item>@drawable/subway_line_2</item>
+        <item>@drawable/subway_line_3</item>
+        <item>@drawable/subway_line_4</item>
+        <item>@drawable/subway_line_5</item>
+        <item>@drawable/subway_line_6</item>
+        <item>@drawable/subway_line_7</item>
+        <item>@drawable/subway_line_8</item>
+        <item>@drawable/subway_line_9</item>
+        <item>@drawable/subway_line_bundang</item>
+        <item>@drawable/subway_line_gimpodosi</item>
+        <item>@drawable/subway_line_gonghang</item>
+        <item>@drawable/subway_line_gyeongchun</item>
+        <item>@drawable/subway_line_gyeonggang</item>
+        <item>@drawable/subway_line_gyeongui</item>
+        <item>@drawable/subway_line_incheon1hoseon</item>
+        <item>@drawable/subway_line_incheon2hoseon</item>
+        <item>@drawable/subway_line_seohae</item>
+        <item>@drawable/subway_line_sinbundang</item>
+        <item>@drawable/subway_line_uijeongbugyeong</item>
+        <item>@drawable/subway_line_uisinseolgyeong</item>
+        <item>@drawable/subway_line_yongingyeong</item>
+    </array>
+
+    <array type="id" name="subway_line_name">
+        <item type="id">subway_line_1</item>
+        <item type="id">subway_line_2</item>
+        <item type="id">subway_line_3</item>
+        <item type="id">subway_line_4</item>
+        <item type="id">subway_line_5</item>
+        <item type="id">subway_line_6</item>
+        <item type="id">subway_line_7</item>
+        <item type="id">subway_line_8</item>
+        <item type="id">subway_line_9</item>
+        <item type="id">subway_line_bundang</item>
+        <item type="id">subway_line_gimpodosi</item>
+        <item type="id">subway_line_gonghang</item>
+        <item type="id">subway_line_gyeongchun</item>
+        <item type="id">subway_line_gyeonggang</item>
+        <item type="id">subway_line_gyeongui</item>
+        <item type="id">subway_line_seohae</item>
+        <item type="id">subway_line_sinbundang</item>
+        <item type="id">subway_line_uijeongbugyeong</item>
+        <item type="id">subway_line_uisinseolgyeong</item>
+        <item type="id">subway_line_yongingyeong</item>
+    </array>
+
+</resources>
+
+
+
